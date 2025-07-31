@@ -1,352 +1,237 @@
 # panda_consultancy
 Your trusted consulting partner for your polycables manufacturing unit .
-panda_consultancy/
-├── backend/
-│   ├── server.js
-│   ├── models/
-│   ├── routes/
-│   └── ...
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Navbar.js
-│   │   │   ├── Footer.js
-│   │   ├── pages/
-│   │   │   ├── Home.js
-│   │   │   ├── About.js
-│   │   │   ├── Services.js
-│   │   │   ├── Contact.js
-│   │   │   ├── ApplyJob.js
-│   │   │   ├── Companies.js
-│   │   │   ├── Blog.js
-│   │   ├── App.js
-│   │   └── index.js
-│   └── package.json
-└── README.md
-npx create-react-app .
-npm install @mui/material @emotion/react @emotion/styled react-router-dom
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Contact from './pages/Contact';
-import ApplyJob from './pages/ApplyJob';
-import Companies from './pages/Companies';
-import Blog from './pages/Blog';
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Panda Consultancy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Panda Consultancy</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="apply.html">Apply for Job</a></li>
+        <li><a href="tenders.html">Tenders</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>  <main>
+    <section class="hero">
+      <h2>Connecting Talent & Industry</h2>
+      <p>Helping ordinary people get hired and companies grow smarter — especially in the plastic line industry.</p>
+    </section><section class="features">
+  <div>
+    <h3>For Job Seekers</h3>
+    <p>Apply for verified jobs in private companies across India.</p>
+  </div>
+  <div>
+    <h3>For Companies</h3>
+    <p>Submit tenders, hire manpower, and access machinery guidance.</p>
+  </div>
+  <div>
+    <h3>Plastic Industry</h3>
+    <p>Explore articles, videos, and tenders for plastic manufacturing and machinery.</p>
+  </div>
+</section>
 
-function App() {
-  return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/apply-job" element={<ApplyJob />} />
-        <Route path="/companies" element={<Companies />} />
-        <Route path="/blog" element={<Blog />} />
-      </Routes>
-      <Footer />
-    </Router>
-  );
+  </main>  <footer>
+    <p>&copy; 2025 Panda Consultancy. All rights reserved.</p>
+  </footer>
+</body>
+</html><!-- about.html --><!DOCTYPE html><html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>About Us</title><link rel="stylesheet" href="style.css"></head>
+<body><header><h1>About Panda Consultancy</h1></header>
+<main><p>Panda Consultancy is dedicated to bridging the gap between job seekers and private companies across India. We specialize in staffing and industrial solutions, especially in the plastic manufacturing industry.</p></main>
+<footer><p>&copy; 2025 Panda Consultancy</p></footer></body>
+</html><!-- services.html --><!DOCTYPE html><html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Services</title><link rel="stylesheet" href="style.css"></head>
+<body><header><h1>Our Services</h1></header>
+<main><ul><li>Job Placement for Individuals</li><li>Recruitment Solutions for Companies</li><li>Machinery & Raw Material Consulting</li><li>Project Tender Management</li></ul></main>
+<footer><p>&copy; 2025 Panda Consultancy</p></footer></body>
+</html><!-- apply.html --><!DOCTYPE html><html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Apply for a Job</title><link rel="stylesheet" href="style.css"></head>
+<body><header><h1>Apply for a Job</h1></header>
+<main>
+  <p>Fill in your details below. Our team will contact you soon.</p>
+  <form>
+    <label>Name:<input type="text" required></label><br>
+    <label>Email:<input type="email" required></label><br>
+    <label>Phone:<input type="tel" required></label><br>
+    <label>Resume:<input type="file"></label><br>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+<footer><p>&copy; 2025 Panda Consultancy</p></footer></body>
+</html><!-- tenders.html --><!DOCTYPE html><html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Tenders</title><link rel="stylesheet" href="style.css"></head>
+<body><header><h1>Submit a Tender</h1></header>
+<main>
+  <p>Companies can submit tenders for manpower or machinery consulting here.</p>
+  <form>
+    <label>Company Name:<input type="text" required></label><br>
+    <label>Email:<input type="email" required></label><br>
+    <label>Phone:<input type="tel" required></label><br>
+    <label>Project Details:<textarea rows="4" required></textarea></label><br>
+    <button type="submit">Submit Tender</button>
+  </form>
+</main>
+<footer><p>&copy; 2025 Panda Consultancy</p></footer></body>
+</html><!-- blog.html --><!DOCTYPE html><html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Blog</title><link rel="stylesheet" href="style.css"></head>
+<body><header><h1>Plastic Line Industry Blog</h1></header>
+<main>
+  <article>
+    <h2>Types of Plastic Machinery</h2>
+    <p>Details about different types of injection moulding machines, blow moulding machines, etc.</p>
+  </article>
+  <article>
+    <h2>Raw Materials You Need</h2>
+    <p>A guide to sourcing, pricing, and using plastic-grade raw materials.</p>
+  </article>
+</main>
+<footer><p>&copy; 2025 Panda Consultancy</p></footer></body>
+</html><!-- contact.html --><!DOCTYPE html><html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Contact Us</title><link rel="stylesheet" href="style.css"></head>
+<body><header><h1>Contact Panda Consultancy</h1></header>
+<main>
+  <p>You can reach us via phone or email. Fill in the form and we’ll respond soon.</p>
+  <form>
+    <label>Name:<input type="text" required></label><br>
+    <label>Email:<input type="email" required></label><br>
+    <label>Message:<textarea rows="4" required></textarea></label><br>
+    <button type="submit">Send</button>
+  </form>
+  <p><strong>Phone:</strong> (Add your number here)</p>
+  <p><strong>Email:</strong> contact@pandaconsultancy.com</p>
+</main>
+<footer><p>&copy; 2025 Panda Consultancy</p></footer></body>
+</html>
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panda Consultancy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #f4f4f4, #e0eafc);
+      color: #333;
+    }header {
+  background-color: #1e2a38;
+  padding: 1rem 2rem;
+  color: white;
+  text-align: center;
 }
 
-export default App;
-import React from 'react';
-import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
-import { Link } from 'react-router-dom';
-
-function Navbar() {
-  return (
-    <AppBar position="static" color="primary">
-      <Toolbar>
-        <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          Panda Consultancy
-        </Typography>
-        <Box>
-          <Button color="inherit" component={Link} to="/">Home</Button>
-          <Button color="inherit" component={Link} to="/about">About</Button>
-          <Button color="inherit" component={Link} to="/services">Services</Button>
-          <Button color="inherit" component={Link} to="/apply-job">Apply for a Job</Button>
-          <Button color="inherit" component={Link} to="/companies">Companies</Button>
-          <Button color="inherit" component={Link} to="/blog">Blog</Button>
-          <Button color="inherit" component={Link} to="/contact">Contact</Button>
-        </Box>
-      </Toolbar>
-    </AppBar>
-  );
+nav {
+  background: #32465a;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
 }
 
-export default Navbar;
-import React from 'react';
-import { Box, Typography } from '@mui/material';
-
-function Footer() {
-  return (
-    <Box component="footer" sx={{ p: 2, background: '#1976d2', color: '#fff', textAlign: 'center' }}>
-      <Typography variant="body2">
-        &copy; {new Date().getFullYear()} Panda Consultancy. All rights reserved.
-      </Typography>
-    </Box>
-  );
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-export default Footer;
-import React from 'react';
-import { Container, Typography, Button, Grid } from '@mui/material';
-import { Link } from 'react-router-dom';
-
-function Home() {
-  return (
-    <Container sx={{ mt: 5, mb: 5 }}>
-      <Typography variant="h3" gutterBottom>
-        Welcome to Panda Consultancy
-      </Typography>
-      <Typography variant="h6" gutterBottom>
-        Your trusted consulting partner for your polycables and plastics manufacturing unit.
-      </Typography>
-      <Typography variant="body1" sx={{ mb: 4 }}>
-        We connect job seekers with top companies in the plastic industry and provide end-to-end consultancy for machinery, raw materials, and project tenders.
-      </Typography>
-      <Grid container spacing={2}>
-        <Grid item>
-          <Button variant="contained" color="secondary" component={Link} to="/apply-job">
-            Apply for a Job
-          </Button>
-        </Grid>
-        <Grid item>
-          <Button variant="outlined" color="secondary" component={Link} to="/companies">
-            Companies: Post a Tender
-          </Button>
-        </Grid>
-      </Grid>
-    </Container>
-  );
+section {
+  padding: 2rem;
 }
 
-export default Home;
-backend/
-├── models/
-│   ├── JobApplication.js
-│   ├── CompanyTender.js
-├── routes/
-│   ├── jobs.js
-│   ├── tenders.js
-├── server.js
-├── package.json
-npm init -y
-npm install express mongoose cors
-const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
-
-const jobsRoute = require('./routes/jobs');
-const tendersRoute = require('./routes/tenders');
-
-const app = express();
-app.use(cors());
-app.use(express.json());
-
-mongoose.connect('mongodb://localhost:27017/panda_consultancy', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
-
-app.use('/api/jobs', jobsRoute);
-app.use('/api/tenders', tendersRoute);
-
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log('Server running on port', PORT);
-});
-const mongoose = require('mongoose');
-
-const JobApplicationSchema = new mongoose.Schema({
-  name: String,
-  email: String,
-  phone: String,
-  resume: String, // store url or base64 (for MVP, use url)
-  appliedAt: { type: Date, default: Date.now },
-});
-
-module.exports = mongoose.model('JobApplication', JobApplicationSchema);
-const mongoose = require('mongoose');
-
-const CompanyTenderSchema = new mongoose.Schema({
-  companyName: String,
-  contactPerson: String,
-  email: String,
-  phone: String,
-  projectDetails: String,
-  submittedAt: { type: Date, default: Date.now },
-});
-
-module.exports = mongoose.model('CompanyTender', CompanyTenderSchema);
-
-const express = require('express');
-const router = express.Router();
-const JobApplication = require('../models/JobApplication');
-
-// Submit job application
-router.post('/', async (req, res) => {
-  try {
-    const job = new JobApplication(req.body);
-    await job.save();
-    res.status(201).json({ message: 'Application submitted!' });
-  } catch (err) {
-    res.status(400).json({ error: err.message });
-  }
-});
-
-// Get all applications (admin use)
-router.get('/', async (req, res) => {
-  const jobs = await JobApplication.find();
-  res.json(jobs);
-});
-
-module.exports = router;
-import React from 'react';
-import { Container, Typography } from '@mui/material';
-
-function About() {
-  return (
-    <Container sx={{ mt: 5, mb: 5 }}>
-      <Typography variant="h4" gutterBottom>About Us</Typography>
-      <Typography>
-        Panda Consultancy is your trusted partner in the polycables and plastics industry, connecting talent and companies for a better tomorrow.
-      </Typography>
-    </Container>
-  );
+footer {
+  background-color: #1e2a38;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
 
-export default About;
-import React from 'react';
-import { Container, Typography, List, ListItem, ListItemText } from '@mui/material';
-
-function Services() {
-  return (
-    <Container sx={{ mt: 5, mb: 5 }}>
-      <Typography variant="h4" gutterBottom>Our Services</Typography>
-      <List>
-        <ListItem><ListItemText primary="Job placement for plastic/polycables sector" /></ListItem>
-        <ListItem><ListItemText primary="Consultancy for machinery and raw materials" /></ListItem>
-        <ListItem><ListItemText primary="Company tender submission & project management" /></ListItem>
-        <ListItem><ListItemText primary="Industry insights: blogs, videos, and more" /></ListItem>
-      </List>
-    </Container>
-  );
+iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+  margin-top: 1rem;
 }
 
-export default Services;
-import React from 'react';
-import { Container, Typography, TextField, Button, Box } from '@mui/material';
-
-function Contact() {
-  return (
-    <Container sx={{ mt: 5, mb: 5 }}>
-      <Typography variant="h4" gutterBottom>Contact Us</Typography>
-      <Box component="form" sx={{ mt: 2 }}>
-        <TextField label="Name" fullWidth sx={{ mb: 2 }} />
-        <TextField label="Email" fullWidth sx={{ mb: 2 }} />
-        <TextField label="Message" fullWidth multiline rows={4} sx={{ mb: 2 }} />
-        <Button variant="contained" color="primary">Send</Button>
-      </Box>
-      <Typography sx={{ mt: 3 }}>
-        Or reach us at: <strong>[Your Contact Number Here]</strong>
-      </Typography>
-    </Container>
-  );
+.card {
+  background-color: white;
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-export default Contact;
-import React, { useState } from 'react';
-import { Container, Typography, TextField, Button, Box, Alert } from '@mui/material';
-import axios from 'axios';
-
-function ApplyJob() {
-  const [form, setForm] = useState({ name: '', email: '', phone: '', resume: '' });
-  const [success, setSuccess] = useState('');
-  const [error, setError] = useState('');
-
-  const handleChange = e => setForm({ ...form, [e.target.name]: e.target.value });
-
-  const handleSubmit = async e => {
-    e.preventDefault();
-    try {
-      await axios.post('http://localhost:5000/api/jobs', form);
-      setSuccess('Application submitted!');
-      setError('');
-      setForm({ name: '', email: '', phone: '', resume: '' });
-    } catch (err) {
-      setError('Submission failed.');
-      setSuccess('');
-    }
-  };
-
-  return (
-    <Container sx={{ mt: 5, mb: 5 }}>
-      <Typography variant="h4" gutterBottom>Apply for a Job</Typography>
-      <Box component="form" sx={{ mt: 2 }} onSubmit={handleSubmit}>
-        <TextField label="Name" name="name" value={form.name} onChange={handleChange} required fullWidth sx={{ mb: 2 }} />
-        <TextField label="Email" name="email" value={form.email} onChange={handleChange} required fullWidth sx={{ mb: 2 }} />
-        <TextField label="Phone" name="phone" value={form.phone} onChange={handleChange} required fullWidth sx={{ mb: 2 }} />
-        <TextField label="Resume (Link)" name="resume" value={form.resume} onChange={handleChange} required fullWidth sx={{ mb: 2 }} />
-        <Button variant="contained" type="submit">Submit</Button>
-      </Box>
-      {success && <Alert severity="success" sx={{ mt: 2 }}>{success}</Alert>}
-      {error && <Alert severity="error" sx={{ mt: 2 }}>{error}</Alert>}
-    </Container>
-  );
+.hero {
+  background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
 }
 
-export default ApplyJob;
-import React, { useState } from 'react';
-import { Container, Typography, TextField, Button, Box, Alert } from '@mui/material';
-import axios from 'axios';
-
-function Companies() {
-  const [form, setForm] = useState({ companyName: '', contactPerson: '', email: '', phone: '', projectDetails: '' });
-  const [success, setSuccess] = useState('');
-  const [error, setError] = useState('');
-
-  const handleChange = e => setForm({ ...form, [e.target.name]: e.target.value });
-
-  const handleSubmit = async e => {
-    e.preventDefault();
-    try {
-      await axios.post('http://localhost:5000/api/tenders', form);
-      setSuccess('Tender submitted!');
-      setError('');
-      setForm({ companyName: '', contactPerson: '', email: '', phone: '', projectDetails: '' });
-    } catch (err) {
-      setError('Submission failed.');
-      setSuccess('');
-    }
-  };
-
-  return (
-    <Container sx={{ mt: 5, mb: 5 }}>
-      <Typography variant="h4" gutterBottom>Company Tender Submission</Typography>
-      <Box component="form" sx={{ mt: 2 }} onSubmit={handleSubmit}>
-        <TextField label="Company Name" name="companyName" value={form.companyName} onChange={handleChange} required fullWidth sx={{ mb: 2 }} />
-        <TextField label="Contact Person" name="contactPerson" value={form.contactPerson} onChange={handleChange} required fullWidth sx={{ mb: 2 }} />
-        <TextField label="Email" name="email" value={form.email} onChange={handleChange} required fullWidth sx={{ mb: 2 }} />
-        <TextField label="Phone" name="phone" value={form.phone} onChange={handleChange} required fullWidth sx={{ mb: 2 }} />
-        <TextField label="Project Details" name="projectDetails" value={form.projectDetails} onChange={handleChange} required fullWidth multiline rows={4} sx={{ mb: 2 }} />
-        <Button variant="contained" type="submit">Submit</Button>
-      </Box>
-      {success && <Alert severity="success" sx={{ mt: 2 }}>{success}</Alert>}
-      {error && <Alert severity="error" sx={{ mt: 2 }}>{error}</Alert>}
-    </Container>
-  );
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
 }
 
-export default Companies;
+  </style>
+</head><body>
+  <header>
+    <h1>Panda Consultancy</h1>
+    <p>Connecting talent and companies with ease</p>
+  </header>  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#apply">Apply</a>
+    <a href="#companies">Companies</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section class="hero" id="home">
+    <h1>Welcome to Panda Consultancy</h1>
+    <p>Your bridge to employment and enterprise solutions</p>
+  </section>  <section id="about" class="card">
+    <h2>About Us</h2>
+    <p>Panda Consultancy is a platform for ordinary people to apply for jobs in private companies across India. We also help businesses with complete consultancy from machineries to raw materials in the plastic line and beyond.</p>
+  </section>  <section id="services" class="card">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Job application portal</li>
+      <li>Company registration</li>
+      <li>Machinery & raw material listings (plastic industry focused)</li>
+      <li>Project tender handling</li>
+      <li>Blogs and updates about industrial equipment</li>
+    </ul>
+  </section>  <section id="apply" class="card">
+    <h2>Apply for a Job</h2>
+    <p>Fill out the Google Form below to apply. Upload your CV and provide your details.</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScZ-z6cyIHO8VkDrhvM9G6ixqx_P48ugBzdoFHrLoK02MGJQw/viewform?embedded=true">Loading…</iframe>
+  </section>  <section id="companies" class="card">
+    <h2>Company Registration & Services</h2>
+    <p>Register your company, post job vacancies, order machinery/raw materials, or offer tenders through the form below.</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeM7uF4vTJZLu58_ydSSRA4ZjEVtSm0MiyfC4_LPK7Xo2BdCw/viewform?embedded=true">Loading…</iframe>
+  </section>  <section id="contact" class="card">
+    <h2>Contact Us</h2>
+    <p>Phone: +91 XXXXX XXXXX<br>Email: contact@pandaconsultancy.in</p>
+  </section>  <footer>
+    <p>&copy; 2025 Panda Consultancy. All rights reserved.</p>
+  </footer>
+</body></html>
+
+
+
+
+
+
 
 
 
