@@ -108,7 +108,7 @@ iframe {
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEYh2K8j87EVkY4hiyf8jQcDiX_sA8xTgrWKxanb-VYLanew/viewform?embedded=true" width="640" height="3198" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>">
   </section>  <section id="contact" class="card">
     <h2>Contact Us</h2>
-    <p>Phone: +91 98322 22328<br>Email:pandaconsultancy@gmail.com</p>
+    <p>Phone: +91 98322 22328<br>Email:   contact.pandapolycables@gmail.com</p>
   </section>  <footer>
     <p>&copy; 2025 Panda Consultancy. All rights reserved.</p>
   </footer>
