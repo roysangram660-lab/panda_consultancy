@@ -212,16 +212,18 @@ iframe {
       <li>Blogs and updates about industrial equipment</li>
     </ul>
   </section>  <section id="apply" class="card">
+    <main>
     <h2>Apply for a Job</h2>
-    <p>Fill out the Google Form below to apply. Upload your CV and provide your details.</p>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScZ-z6cyIHO8VkDrhvM9G6ixqx_P48ugBzdoFHrLoK02MGJQw/viewform?embedded=true">Loading…</iframe>
+    <p>Fill out the form below to apply for jobs through Panda Consultancy. Make sure to provide accurate details and attach your latest CV.</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdLSMAIeKKLWSRVL3RrARM3XPhDdLSJr84C_A4d6GrelEemrA/viewform?embedded=true" width="640" height="2550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </main>
   </section>  <section id="companies" class="card">
     <h2>Company Registration & Services</h2>
     <p>Register your company, post job vacancies, order machinery/raw materials, or offer tenders through the form below.</p>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeM7uF4vTJZLu58_ydSSRA4ZjEVtSm0MiyfC4_LPK7Xo2BdCw/viewform?embedded=true">Loading…</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdEYh2K8j87EVkY4hiyf8jQcDiX_sA8xTgrWKxanb-VYLanew/viewform?embedded=true" width="640" height="3198" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>">
   </section>  <section id="contact" class="card">
     <h2>Contact Us</h2>
-    <p>Phone: +91 XXXXX XXXXX<br>Email: contact@pandaconsultancy.in</p>
+    <p>Phone: +91 98322 22328<br>Email:pandaconsultancy@gmail.com</p>
   </section>  <footer>
     <p>&copy; 2025 Panda Consultancy. All rights reserved.</p>
   </footer>
