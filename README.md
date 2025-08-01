@@ -71,7 +71,6 @@ iframe {
 }
 
   </style>
-</head><body>
   <header>
     <h1>Panda Consultancy</h1>
     <p>Connecting talent and companies with ease</p>
