@@ -1,46 +1,5 @@
 # panda_consultancy
 Your trusted consulting partner for your polycables manufacturing unit .
-</html><!-- about.html --><!DOCTYPE html><html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>About Us</title><link rel="stylesheet" href="style.css"></head>
-<body><header><h1>About Panda Consultancy</h1></header>
-<main><p>Panda Consultancy is dedicated to bridging the gap between job seekers and private companies across India. We specialize in staffing and industrial solutions, especially in the plastic manufacturing industry.</p></main>
-<footer><p>&copy; 2025 Panda Consultancy</p></footer></body>
-</html><!-- services.html --><!DOCTYPE html><html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Services</title><link rel="stylesheet" href="style.css"></head>
-<body><header><h1>Our Services</h1></header>
-<main><ul><li>Job Placement for Individuals</li><li>Recruitment Solutions for Companies</li><li>Machinery & Raw Material Consulting</li><li>Project Tender Management</li></ul></main>
-<footer><p>&copy; 2025 Panda Consultancy</p></footer></body>
-</html><!-- apply.html --><!DOCTYPE html><html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Apply for a Job</title><link rel="stylesheet" href="style.css"></head>
-<body><header><h1>Apply for a Job</h1></header>
-<main>
-  <p>Fill in your details below. Our team will contact you soon.</p>
-  <form>
-    <label>Name:<input type="text" required></label><br>
-    <label>Email:<input type="email" required></label><br>
-    <label>Phone:<input type="tel" required></label><br>
-    <label>Resume:<input type="file"></label><br>
-    <button type="submit">Submit</button>
-  </form>
-</main>
-<footer><p>&copy; 2025 Panda Consultancy</p></footer></body>
-</html><!-- tenders.html --><!DOCTYPE html><html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Tenders</title><link rel="stylesheet" href="style.css"></head>
-<body><header><h1>Submit a Tender</h1></header>
-<main>
-  <p>Companies can submit tenders for manpower or machinery consulting here.</p>
-  <form>
-    <label>Company Name:<input type="text" required></label><br>
-    <label>Email:<input type="email" required></label><br>
-    <label>Phone:<input type="tel" required></label><br>
-    <label>Project Details:<textarea rows="4" required></textarea></label><br>
-    <button type="submit">Submit Tender</button>
-  </form>
-</main>
-<footer><p>&copy; 2025 Panda Consultancy</p></footer></body>
-</html><!-- blog.html --><!DOCTYPE html><html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Blog</title><link r
-</html>
 <!DOCTYPE html><html lang="en"><head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
