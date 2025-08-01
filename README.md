@@ -1,6 +1,5 @@
 # panda_consultancy
 Your trusted consulting partner for your polycables manufacturing unit .
-<!DOCTYPE html><html lang="en"><head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Panda Consultancy</title>
