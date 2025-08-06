@@ -112,6 +112,8 @@ iframe {
   </section>  <footer>
     <p>&copy; 2025 Panda Consultancy. All rights reserved.</p>
   </footer>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9755290149366963"
+     crossorigin="anonymous"></script>
 </body></html>
 
 
