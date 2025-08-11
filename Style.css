@@ -128,7 +128,113 @@ iframe {
     width: 90px;
   }
 }
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+    color: #333;
+}
 
+/* HEADER */
+.header {
+    background: #1e2a38;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    height: 50px;
+    margin-right: 10px;
+}
+.header nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+.btn {
+    background: #ff9800;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.btn-primary {
+    background: #ff9800;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    background: url('images/polycables_bg.jpg') no-repeat center/cover;
+    padding: 4rem 2rem;
+    color: white;
+    text-align: center;
+}
+
+/* SERVICES */
+.services {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+.service-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 300px;
+}
+
+/* FORMS */
+.form-section {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+.form-container iframe {
+    width: 100%;
+    height: 800px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* LOGIN */
+.login-page {
+    background: linear-gradient(120deg, #32465a, #1e2a38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+.login-container input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    background: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
 
 
 
