@@ -128,29 +128,7 @@ iframe {
 
     <!-- Link to your CSS -->
     <link rel="stylesheet" href="style.css">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panda Consultancy</title>
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-
-    <!-- Link to your CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<div class="hero">
-    <h1>Welcome to Panda Consultancy</h1>
-    <p>Connecting talent and companies in the polycables industry</p>
-    <button>Apply Now</button>
-</div>
-
-<div class="form-container">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdLSMAIeKKLWSRVL3RrARM3XPhDdLSJr84C_A4d6GrelEemrA/viewform?embedded=true"
-        height="2550">Loading…</iframe>
-</div>
-
-
+    
 
 
 
