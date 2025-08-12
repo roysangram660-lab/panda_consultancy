@@ -157,7 +157,137 @@ git push
     </footer>
 </body>
 </html>
+.hero {
+  background: linear-gradient(to right, #1e2a38d9, #32465ad9), 
+              url('https://images.unsplash.com/photo-1581091012184-5c1f4f7ecf69?auto=format&fit=crop&w=1470&q=80') 
+              no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.hero-content {
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.panda-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .panda-logo {
+    width: 90px;
+  }
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    background: #1e2a38;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.header nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+.btn {
+    background: #ff9800;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.btn-primary {
+    background: #ff9800;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    background: url('images/polycables_bg.jpg') no-repeat center/cover;
+    padding: 4rem 2rem;
+    color: white;
+    text-align: center;
+}
+.hero-text h2 {
+    font-size: 2.5rem;
+}
+.hero-text p {
+    font-size: 1.2rem;
+}
+
+/* SERVICES */
+.services {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+.service-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 300px;
+}
+
+/* LOGIN PAGE */
+.login-page {
+    background: linear-gradient(120deg, #32465a, #1e2a38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+.login-container input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
 
 
